@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import SmoothScroll from './components/SmoothScroll';
-import Loading from './components/Loading';
-import Background from './components/Background';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import SocialProof from './components/SocialProof';
-import KineticManifesto from './components/KineticManifesto';
-import BentoGrid from './components/BentoGrid';
-import InterfaceDemo from './components/InterfaceDemo';
-import Pricing from './components/Pricing';
-import Footer from './components/Footer';
-import EntryForm from './components/EntryForm';
+import SmoothScroll from '../components/SmoothScroll';
+import Loading from '../components/Loading';
+import Background from '../components/Background';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import SocialProof from '../components/SocialProof';
+import KineticManifesto from '../components/KineticManifesto';
+import BentoGrid from '../components/BentoGrid';
+import InterfaceDemo from '../components/InterfaceDemo';
+import Pricing from '../components/Pricing';
+import Footer from '../components/Footer';
+import EntryForm from '../components/EntryForm';
 
 const StudentPage = () => {
     const [isEntryOpen, setIsEntryOpen] = useState(false);
