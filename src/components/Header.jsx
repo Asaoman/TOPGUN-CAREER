@@ -16,9 +16,8 @@ const Header = ({ onOpenEntry }) => {
                 </div>
 
                 <nav className="hidden md:flex gap-8 text-sm font-mono text-gray-400">
-                    <a href="#concept" className="hover:text-[var(--color-neon-cyan)] transition-colors">CONCEPT</a>
-                    <a href="#system" className="hover:text-[var(--color-neon-cyan)] transition-colors">SYSTEM</a>
-                    <a href="#missions" className="hover:text-[var(--color-neon-cyan)] transition-colors">MISSIONS</a>
+                    <a href="/" className="hover:text-white transition-colors">学生向け</a>
+                    <a href="/company" className="hover:text-white transition-colors">企業向け</a>
                 </nav>
 
                 <motion.button
